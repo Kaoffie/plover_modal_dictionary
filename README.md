@@ -1,4 +1,6 @@
 # Modal Dictionaries for Plover
+[![PyPI](https://img.shields.io/pypi/v/plover-modal-dictionary)](https://pypi.org/project/plover-modal-dictionary/)
+![GitHub](https://img.shields.io/github/license/Kaoffie/plover_modal_dictionary)
 
 **Modal Dictionaries** are dictionaries that can switch two modes - activated and deactivated. Dictionary entries are hidden until they are activated by one of the configured activation strokes, after which they can be deactivated again under user-configured conditions.
 
