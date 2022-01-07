@@ -1,0 +1,2 @@
+from plover_modal_dictionary.dictionary import ModalDictionary
+from plover_modal_dictionary.extension import ModalExtension
