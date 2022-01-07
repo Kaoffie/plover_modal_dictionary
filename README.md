@@ -102,7 +102,7 @@ These dictionaries can be defined using the usual JSON format, like so:
 }
 ```
 
-they can also just be references to another dictionary file that's supported by your current Plover setup:
+they can also just be references to other dictionary files with formats supported by your current Plover plugin setup:
 
 ```json
 "entry": "some/other/dictionary.py"
