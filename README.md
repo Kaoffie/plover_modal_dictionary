@@ -54,10 +54,10 @@ Modal dictionaries have the `.modal` extension and follow the following format (
 
 ```json
 {
-    "exclude_entry": true/false,
-    "exit_on_mismatch": true/false,
-    "exit_on_match": true/false,
-    "ignore_folding": true/false,
+    "exclude_entry": false,
+    "exit_on_mismatch": true,
+    "exit_on_match": false,
+    "ignore_folding": true,
 
     "entry": {
         "S": "translation 1",
@@ -76,7 +76,7 @@ Modal dictionaries have the `.modal` extension and follow the following format (
 }
 ```
 
-Any of the `true/false` can be omitted. They are used like so:
+Any of the `true/false` options can be omitted. They are used like so:
 
 | Option | Default | Usage |
 |---|---|---|
