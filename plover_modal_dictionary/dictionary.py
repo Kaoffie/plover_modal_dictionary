@@ -83,7 +83,7 @@ class ModalDictionary(StenoDictionary):
 
             elif isinstance(sub_dict_data, str):
                 sub_dict = _get_dictionary_class(sub_dict_data).load(sub_dict_data)
-                self._longest_key = max(self._longest_key, sub_dict._longest_key)
+                self._longest_key = max(self._longest_key, sub_dict.longest_key)
                 self._lookup_funcs[dict_name] = sub_dict.get
             
             else:

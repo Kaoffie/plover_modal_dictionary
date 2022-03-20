@@ -19,9 +19,7 @@ class ModalExtension():
         pass
 
     def on_stroke(self, _: Tuple[str, ...]) -> None:
-        print("\nOn stroke trigger")
         dict: StenoDictionary
         for dict in self._engine.dictionaries.dicts:
             if isinstance(dict, ModalDictionary):
-                print("Calling update on dict", dict)
                 dict.update_state()
