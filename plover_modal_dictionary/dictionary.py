@@ -9,7 +9,7 @@ import json
 
 EXCLUDE_ENTRY = "exclude_entry"
 EXIT_ON_MISMATCH = "exit_on_mismatch"
-EXIT_ON_MATCH = "exit_after_word"
+EXIT_ON_MATCH = "exit_on_match"
 IGNORE_FOLDING = "ignore_folding"
 
 
@@ -129,7 +129,7 @@ class ModalDictionary(StenoDictionary):
 
             if entry_output is not None:
                 self._matched = True
-                self._activated = True
+                self._to_activate = True
                 return entry_output
         
         raise KeyError
